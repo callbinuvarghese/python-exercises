@@ -1,0 +1,24 @@
+Data types
+=========
+Numeric data types: int, float, complex
+String data types: str
+Sequence types: list, tuple, range
+Binary types: bytes, bytearray, memoryview
+Mapping data type: dict
+Boolean type: bool
+Set data types: set, frozenset
+
+Lists - []
+    array -  indexed by integers. 
+    mutable
+    duplicates allowed
+Sets - ()
+    indexed by integers. 
+    immutable sequence - mutable, however, only immutable objects can be stored in it
+    non-duplicates. eliminate duplicates on construction
+    values - different types allowed
+Tuples - ()
+    immutable
+Dict - {k:"",v:""}
+    key-value pairs
+    keys & values - can be multiple data types - need to be same type

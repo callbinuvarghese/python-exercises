@@ -1,0 +1,18 @@
+Product(
+    id=123123,
+    title='Cool Shirt',
+    variants=[
+        Variant(
+            name='Small',
+            sku='1ABC123',
+            available=True,
+            price=24.99,
+        ),
+        Variant(
+            name='Medium',
+            sku='1ABC124',
+            available=False,
+            price=25.0,
+        ),
+    ],
+)
